@@ -7,11 +7,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bodoni: ['"Libre Bodoni"', 'serif'],
+        rye: ['"Rye"', 'serif'],
+        plyfire: ['Plyfire', 'sans-serif'],
+      },
+      lineHeight: {
+        custom: '65.8px',
+      },
+      letterSpacing: {
+        tight: '0.025em',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
+  variants: {},
   plugins: [],
 };
